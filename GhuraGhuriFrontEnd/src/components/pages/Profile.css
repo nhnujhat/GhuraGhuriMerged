@@ -1,0 +1,52 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:900,300);
+
+.body {
+  background-color: #ffffff;
+  font-family: roboto;
+}
+
+.profilecontainer {
+  width: 600px;
+  margin: 100px auto 100px;
+  background-color: #95C98D;
+  padding: 100px 10px 100px 10px;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.075);
+  -webkit-box-shadow: 0 2px 5px rgba(0,0,0,0.075);
+  -moz-box-shadow: 0 2px 5px rgba(0,0,0,0.075);
+  text-align: center;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+h4 {
+  font-size: 13px;
+  color: #00baff;
+  letter-spacing: 1px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 26px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: #666;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 100%;
+}
